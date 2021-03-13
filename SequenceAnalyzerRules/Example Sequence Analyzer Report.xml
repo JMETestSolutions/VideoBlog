@@ -1,0 +1,2583 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="C:\Program Files (x86)\National Instruments\TestStand 2020\Components\Stylesheets\Analyzer\AnalyzerReportViewer.xsl"?>
+<teststandfileheader type='TEOLEDataSource' fileversion='941' productname='TestStand' productversion='2020 (20.0.0.49158)' compatibleversion='20.0.0.0' buildversion='20.0.0.49158' xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.ni.com/TestStand/20.0.0/PropertyObjectFile">
+	<typelist/>
+	<TEOLEDataSource>
+		<ReportData classname='Obj'>
+			<subprops>
+				<AnalyzeNITypePalettes classname='Bool'>
+					<value>false</value>
+				</AnalyzeNITypePalettes>
+				<AnalyzePublicTypePalettes classname='Bool'>
+					<value>false</value>
+				</AnalyzePublicTypePalettes>
+				<AnalyzeUsersFile classname='Bool'>
+					<value>false</value>
+				</AnalyzeUsersFile>
+				<AnalyzeStationGlobalsFile classname='Bool'>
+					<value>false</value>
+				</AnalyzeStationGlobalsFile>
+				<AnalyzeTemplatesFile classname='Bool'>
+					<value>false</value>
+				</AnalyzeTemplatesFile>
+				<TraverseSequenceCalls classname='Bool'>
+					<value>false</value>
+				</TraverseSequenceCalls>
+				<AnalyzeModelFiles classname='Bool'>
+					<value>false</value>
+				</AnalyzeModelFiles>
+				<AnalyzeSkippedSteps classname='Bool'>
+					<value>false</value>
+				</AnalyzeSkippedSteps>
+				<AutoSave classname='Bool'>
+					<value>false</value>
+				</AutoSave>
+				<WorkspaceFile classname='Str'>
+					<value/>
+				</WorkspaceFile>
+				<Directories classname='Objs'>
+					<value lbound='[0]' ubound='[]'/>
+				</Directories>
+				<Files classname='Strs'>
+					<value lbound='[0]' ubound='[]'/>
+				</Files>
+				<Messages classname='Objs'>
+					<value lbound='[0]' ubound='[9]'>
+						<value>
+							<Obj name=''>
+								<subprops>
+									<RuleId classname='Str'>
+										<value>JMETestSolutions_getAllRequirements</value>
+									</RuleId>
+									<Text classname='Str'>
+										<value>Requirement Test-3, Test UUT, In Progress</value>
+									</Text>
+									<Locations classname='Objs'>
+										<value lbound='[0]' ubound='[0]'>
+											<value>
+												<Obj name=''>
+													<subprops>
+														<PropertyPathWithNames classname='Str'>
+															<value>Data.Seq["MainSequence"]</value>
+														</PropertyPathWithNames>
+														<FilePath classname='Str'>
+															<value>C:\Users\User\Documents\Subversion\SequenceAnalyzerRules\Example Requirements Sequence File.seq</value>
+														</FilePath>
+													</subprops>
+												</Obj>
+											</value>
+										</value>
+									</Locations>
+									<Status classname='Num'>
+										<value>0</value>
+									</Status>
+									<JustificationForIgnore classname='Str'>
+										<value/>
+									</JustificationForIgnore>
+								</subprops>
+							</Obj>
+						</value>
+						<value>
+							<Obj name=''>
+								<subprops>
+									<RuleId classname='Str'>
+										<value>JMETestSolutions_getAllRequirements</value>
+									</RuleId>
+									<Text classname='Str'>
+										<value>Requirement Test-4, Do something, Done</value>
+									</Text>
+									<Locations classname='Objs'>
+										<value lbound='[0]' ubound='[0]'>
+											<value>
+												<Obj name=''>
+													<subprops>
+														<PropertyPathWithNames classname='Str'>
+															<value>Data.Seq["MainSequence"]</value>
+														</PropertyPathWithNames>
+														<FilePath classname='Str'>
+															<value>C:\Users\User\Documents\Subversion\SequenceAnalyzerRules\Example Requirements Sequence File.seq</value>
+														</FilePath>
+													</subprops>
+												</Obj>
+											</value>
+										</value>
+									</Locations>
+									<Status classname='Num'>
+										<value>0</value>
+									</Status>
+									<JustificationForIgnore classname='Str'>
+										<value/>
+									</JustificationForIgnore>
+								</subprops>
+							</Obj>
+						</value>
+						<value>
+							<Obj name=''>
+								<subprops>
+									<RuleId classname='Str'>
+										<value>JMETestSolutions_getUnfinishedRequirements</value>
+									</RuleId>
+									<Text classname='Str'>
+										<value>Unfinished Requirement Test-3, Test UUT, In Progress</value>
+									</Text>
+									<Locations classname='Objs'>
+										<value lbound='[0]' ubound='[0]'>
+											<value>
+												<Obj name=''>
+													<subprops>
+														<PropertyPathWithNames classname='Str'>
+															<value>Data.Seq["MainSequence"]</value>
+														</PropertyPathWithNames>
+														<FilePath classname='Str'>
+															<value>C:\Users\User\Documents\Subversion\SequenceAnalyzerRules\Example Requirements Sequence File.seq</value>
+														</FilePath>
+													</subprops>
+												</Obj>
+											</value>
+										</value>
+									</Locations>
+									<Status classname='Num'>
+										<value>0</value>
+									</Status>
+									<JustificationForIgnore classname='Str'>
+										<value/>
+									</JustificationForIgnore>
+								</subprops>
+							</Obj>
+						</value>
+						<value>
+							<Obj name=''>
+								<subprops>
+									<RuleId classname='Str'>
+										<value>JMETestSolutions_getAllRequirements</value>
+									</RuleId>
+									<Text classname='Str'>
+										<value>Requirement Test-1, Measure Voltage, Done</value>
+									</Text>
+									<Locations classname='Objs'>
+										<value lbound='[0]' ubound='[0]'>
+											<value>
+												<Obj name=''>
+													<subprops>
+														<PropertyPathWithNamesAndStepId classname='Str'>
+															<value>Data.Seq["MainSequence"].Main["ID#:0G0bGRiE6xG78wgAJ8baRD" /* Finished Step */]</value>
+														</PropertyPathWithNamesAndStepId>
+														<PropertyPathWithNames classname='Str'>
+															<value>Data.Seq["MainSequence"].Main["Finished Step"]</value>
+														</PropertyPathWithNames>
+														<FilePath classname='Str'>
+															<value>C:\Users\User\Documents\Subversion\SequenceAnalyzerRules\Example Requirements Sequence File.seq</value>
+														</FilePath>
+													</subprops>
+												</Obj>
+											</value>
+										</value>
+									</Locations>
+									<Status classname='Num'>
+										<value>0</value>
+									</Status>
+									<JustificationForIgnore classname='Str'>
+										<value/>
+									</JustificationForIgnore>
+								</subprops>
+							</Obj>
+						</value>
+						<value>
+							<Obj name=''>
+								<subprops>
+									<RuleId classname='Str'>
+										<value>JMETestSolutions_getAllRequirements</value>
+									</RuleId>
+									<Text classname='Str'>
+										<value>Requirement Test-2,Unfinished Current Measurement,In Progress</value>
+									</Text>
+									<Locations classname='Objs'>
+										<value lbound='[0]' ubound='[0]'>
+											<value>
+												<Obj name=''>
+													<subprops>
+														<PropertyPathWithNamesAndStepId classname='Str'>
+															<value>Data.Seq["MainSequence"].Main["ID#:+6mVJxiE6xG78wgAJ8baRD" /* In Progress Step */]</value>
+														</PropertyPathWithNamesAndStepId>
+														<PropertyPathWithNames classname='Str'>
+															<value>Data.Seq["MainSequence"].Main["In Progress Step"]</value>
+														</PropertyPathWithNames>
+														<FilePath classname='Str'>
+															<value>C:\Users\User\Documents\Subversion\SequenceAnalyzerRules\Example Requirements Sequence File.seq</value>
+														</FilePath>
+													</subprops>
+												</Obj>
+											</value>
+										</value>
+									</Locations>
+									<Status classname='Num'>
+										<value>0</value>
+									</Status>
+									<JustificationForIgnore classname='Str'>
+										<value/>
+									</JustificationForIgnore>
+								</subprops>
+							</Obj>
+						</value>
+						<value>
+							<Obj name=''>
+								<subprops>
+									<RuleId classname='Str'>
+										<value>JMETestSolutions_getUnfinishedRequirements</value>
+									</RuleId>
+									<Text classname='Str'>
+										<value>Unfinished Requirement Test-2,Unfinished Current Measurement,In Progress</value>
+									</Text>
+									<Locations classname='Objs'>
+										<value lbound='[0]' ubound='[0]'>
+											<value>
+												<Obj name=''>
+													<subprops>
+														<PropertyPathWithNamesAndStepId classname='Str'>
+															<value>Data.Seq["MainSequence"].Main["ID#:+6mVJxiE6xG78wgAJ8baRD" /* In Progress Step */]</value>
+														</PropertyPathWithNamesAndStepId>
+														<PropertyPathWithNames classname='Str'>
+															<value>Data.Seq["MainSequence"].Main["In Progress Step"]</value>
+														</PropertyPathWithNames>
+														<FilePath classname='Str'>
+															<value>C:\Users\User\Documents\Subversion\SequenceAnalyzerRules\Example Requirements Sequence File.seq</value>
+														</FilePath>
+													</subprops>
+												</Obj>
+											</value>
+										</value>
+									</Locations>
+									<Status classname='Num'>
+										<value>0</value>
+									</Status>
+									<JustificationForIgnore classname='Str'>
+										<value/>
+									</JustificationForIgnore>
+								</subprops>
+							</Obj>
+						</value>
+						<value>
+							<Obj name=''>
+								<subprops>
+									<RuleId classname='Str'>
+										<value>JMETestSolutions_getMalformedRequirements</value>
+									</RuleId>
+									<Text classname='Str'>
+										<value>Requirement [Test-4, Malformed Requirement, Don't Know, Don't Care] is not formated in Rule,Summary,Status format</value>
+									</Text>
+									<Locations classname='Objs'>
+										<value lbound='[0]' ubound='[0]'>
+											<value>
+												<Obj name=''>
+													<subprops>
+														<PropertyPathWithNamesAndStepId classname='Str'>
+															<value>Data.Seq["MainSequence"].Main["ID#:B0NDtySE6xG78wgAJ8baRD" /* Malformed Step */]</value>
+														</PropertyPathWithNamesAndStepId>
+														<PropertyPathWithNames classname='Str'>
+															<value>Data.Seq["MainSequence"].Main["Malformed Step"]</value>
+														</PropertyPathWithNames>
+														<FilePath classname='Str'>
+															<value>C:\Users\User\Documents\Subversion\SequenceAnalyzerRules\Example Requirements Sequence File.seq</value>
+														</FilePath>
+													</subprops>
+												</Obj>
+											</value>
+										</value>
+									</Locations>
+									<Status classname='Num'>
+										<value>0</value>
+									</Status>
+									<JustificationForIgnore classname='Str'>
+										<value/>
+									</JustificationForIgnore>
+								</subprops>
+							</Obj>
+						</value>
+						<value>
+							<Obj name=''>
+								<subprops>
+									<RuleId classname='Str'>
+										<value>NI_StepCount</value>
+									</RuleId>
+									<Text classname='Str'>
+										<value>Total Steps Analyzed: 3</value>
+									</Text>
+									<Locations classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</Locations>
+									<Status classname='Num'>
+										<value>0</value>
+									</Status>
+									<JustificationForIgnore classname='Str'>
+										<value/>
+									</JustificationForIgnore>
+								</subprops>
+							</Obj>
+						</value>
+						<value>
+							<Obj name=''>
+								<subprops>
+									<RuleId classname='Str'>
+										<value>NI_SequenceCount</value>
+									</RuleId>
+									<Text classname='Str'>
+										<value>Total Sequences Analyzed: 1</value>
+									</Text>
+									<Locations classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</Locations>
+									<Status classname='Num'>
+										<value>0</value>
+									</Status>
+									<JustificationForIgnore classname='Str'>
+										<value/>
+									</JustificationForIgnore>
+								</subprops>
+							</Obj>
+						</value>
+						<value>
+							<Obj name=''>
+								<subprops>
+									<RuleId classname='Str'>
+										<value>NI_SequenceFileCount</value>
+									</RuleId>
+									<Text classname='Str'>
+										<value>Total Sequence Files Analyzed: 1</value>
+									</Text>
+									<Locations classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</Locations>
+									<Status classname='Num'>
+										<value>0</value>
+									</Status>
+									<JustificationForIgnore classname='Str'>
+										<value/>
+									</JustificationForIgnore>
+								</subprops>
+							</Obj>
+						</value>
+					</value>
+				</Messages>
+				<RulesUsedForAnalysis classname='Objs'>
+					<value lbound='[0]' ubound='[34]'>
+						<value>
+							<Obj name=''>
+								<subprops>
+									<Id classname='Str'>
+										<value>NI_EscapeSequenceValid</value>
+									</Id>
+									<Name classname='Str'>
+										<value>All escape sequences used in expressions must be valid</value>
+									</Name>
+									<Description classname='Str'>
+										<value>The sequence analyzer checks expressions for valid escape sequences.  Improperly escaping
+paths usually leads to using invalid escape sequences, which are rarely intended.</value>
+									</Description>
+									<Category classname='Str'>
+										<value>General</value>
+									</Category>
+									<Severity classname='Num'>
+										<value>0</value>
+									</Severity>
+									<StringResourceCategory classname='Str'>
+										<value>NI_RULES</value>
+									</StringResourceCategory>
+									<IsBuiltin classname='Bool'>
+										<value>true</value>
+									</IsBuiltin>
+									<RuleSettingDefinitions classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</RuleSettingDefinitions>
+									<Enumerations classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</Enumerations>
+								</subprops>
+							</Obj>
+						</value>
+						<value>
+							<Obj name=''>
+								<subprops>
+									<Id classname='Str'>
+										<value>NI_ValidPath</value>
+									</Id>
+									<Name classname='Str'>
+										<value>All file paths must have a valid format</value>
+									</Name>
+									<Description classname='Str'>
+										<value>All file path variables must contain valid syntax.  The sequence analyzer verifies only that the
+syntax of the path is correct and does not confirm that a file exists at each location.</value>
+									</Description>
+									<Category classname='Str'>
+										<value>Best Practices</value>
+									</Category>
+									<Severity classname='Num'>
+										<value>0</value>
+									</Severity>
+									<StringResourceCategory classname='Str'>
+										<value>NI_RULES</value>
+									</StringResourceCategory>
+									<IsBuiltin classname='Bool'>
+										<value>true</value>
+									</IsBuiltin>
+									<RuleSettingDefinitions classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</RuleSettingDefinitions>
+									<Enumerations classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</Enumerations>
+								</subprops>
+							</Obj>
+						</value>
+						<value>
+							<Obj name=''>
+								<subprops>
+									<Id classname='Str'>
+										<value>NI_AbsolutePaths</value>
+									</Id>
+									<Name classname='Str'>
+										<value>Avoid using absolute paths</value>
+									</Name>
+									<Description classname='Str'>
+										<value>Absolute paths make moving files among test systems difficult.  Use relative paths to specify files.</value>
+									</Description>
+									<Category classname='Str'>
+										<value>Best Practices</value>
+									</Category>
+									<Severity classname='Num'>
+										<value>1</value>
+									</Severity>
+									<StringResourceCategory classname='Str'>
+										<value>NI_RULES</value>
+									</StringResourceCategory>
+									<IsBuiltin classname='Bool'>
+										<value>true</value>
+									</IsBuiltin>
+									<RuleSettingDefinitions classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</RuleSettingDefinitions>
+									<Enumerations classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</Enumerations>
+								</subprops>
+							</Obj>
+						</value>
+						<value>
+							<Obj name=''>
+								<subprops>
+									<Id classname='Str'>
+										<value>NI_ModuleLoadable</value>
+									</Id>
+									<Name classname='Str'>
+										<value>Code modules must be able to load</value>
+									</Name>
+									<Description classname='Str'>
+										<value>TestStand must be able to load all code modules without error. TestStand reports errors at run time when it
+cannot load a code module.  Correct this problem by editing the step in the sequence editor.</value>
+									</Description>
+									<Category classname='Str'>
+										<value>General</value>
+									</Category>
+									<Severity classname='Num'>
+										<value>0</value>
+									</Severity>
+									<StringResourceCategory classname='Str'>
+										<value>NI_RULES</value>
+									</StringResourceCategory>
+									<IsBuiltin classname='Bool'>
+										<value>true</value>
+									</IsBuiltin>
+									<RuleSettingDefinitions classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</RuleSettingDefinitions>
+									<Enumerations classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</Enumerations>
+								</subprops>
+							</Obj>
+						</value>
+						<value>
+							<Obj name=''>
+								<subprops>
+									<Id classname='Str'>
+										<value>NI_PrototypeCompatible</value>
+									</Id>
+									<Name classname='Str'>
+										<value>Code modules must have expected prototype</value>
+									</Name>
+									<Description classname='Str'>
+										<value>The prototype for the code module must match the prototype the step module specifies. TestStand reports
+errors at run time when it loads a code module with an incompatible prototype. Correct the problem
+by editing the step module in TestStand to match the code module or by changing the code module prototype
+to match the step module.</value>
+									</Description>
+									<Category classname='Str'>
+										<value>General</value>
+									</Category>
+									<Severity classname='Num'>
+										<value>0</value>
+									</Severity>
+									<StringResourceCategory classname='Str'>
+										<value>NI_RULES</value>
+									</StringResourceCategory>
+									<IsBuiltin classname='Bool'>
+										<value>true</value>
+									</IsBuiltin>
+									<RuleSettingDefinitions classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</RuleSettingDefinitions>
+									<Enumerations classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</Enumerations>
+								</subprops>
+							</Obj>
+						</value>
+						<value>
+							<Obj name=''>
+								<subprops>
+									<Id classname='Str'>
+										<value>NI_CodeModuleOutOfDateWarning</value>
+									</Id>
+									<Name classname='Str'>
+										<value>Code modules should be up-to-date.</value>
+									</Name>
+									<Description classname='Str'>
+										<value>Code modules should be up-to-date.  The Sequence Analyzer checks that the file modification time for the code module is more recent than those of source files specified in the adapter step.
+
+Note:  The Sequence Analyzer only checks source code files, project files, and solution/workspace files specified in the adpater step. It does not perform general dependency checking on included header files, other source files used by the code module, etc.</value>
+									</Description>
+									<Category classname='Str'>
+										<value>General</value>
+									</Category>
+									<Severity classname='Num'>
+										<value>1</value>
+									</Severity>
+									<StringResourceCategory classname='Str'>
+										<value>NI_RULES</value>
+									</StringResourceCategory>
+									<IsBuiltin classname='Bool'>
+										<value>true</value>
+									</IsBuiltin>
+									<RuleSettingDefinitions classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</RuleSettingDefinitions>
+									<Enumerations classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</Enumerations>
+								</subprops>
+							</Obj>
+						</value>
+						<value>
+							<Obj name=''>
+								<subprops>
+									<Id classname='Str'>
+										<value>NI_ModuleLoadWarnings</value>
+									</Id>
+									<Name classname='Str'>
+										<value>Code modules should load without warnings</value>
+									</Name>
+									<Description classname='Str'>
+										<value>TestStand should be able to load all code modules without warnings. Module load warnings are issues
+that occur when trying to load a code module that might or might not be fatal or cause unexpected behavior.
+Correct this problem by editing the step in the sequence editor.</value>
+									</Description>
+									<Category classname='Str'>
+										<value>General</value>
+									</Category>
+									<Severity classname='Num'>
+										<value>1</value>
+									</Severity>
+									<StringResourceCategory classname='Str'>
+										<value>NI_RULES</value>
+									</StringResourceCategory>
+									<IsBuiltin classname='Bool'>
+										<value>true</value>
+									</IsBuiltin>
+									<RuleSettingDefinitions classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</RuleSettingDefinitions>
+									<Enumerations classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</Enumerations>
+								</subprops>
+							</Obj>
+						</value>
+						<value>
+							<Obj name=''>
+								<subprops>
+									<Id classname='Str'>
+										<value>NI_SequenceFileCount</value>
+									</Id>
+									<Name classname='Str'>
+										<value>Count sequence files</value>
+									</Name>
+									<Description classname='Str'>
+										<value>The total number of sequence files analyzed.</value>
+									</Description>
+									<Category classname='Str'>
+										<value>Statistics</value>
+									</Category>
+									<Severity classname='Num'>
+										<value>2</value>
+									</Severity>
+									<StringResourceCategory classname='Str'>
+										<value>NI_RULES</value>
+									</StringResourceCategory>
+									<IsBuiltin classname='Bool'>
+										<value>true</value>
+									</IsBuiltin>
+									<RuleSettingDefinitions classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</RuleSettingDefinitions>
+									<Enumerations classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</Enumerations>
+								</subprops>
+							</Obj>
+						</value>
+						<value>
+							<Obj name=''>
+								<subprops>
+									<Id classname='Str'>
+										<value>NI_SequenceCount</value>
+									</Id>
+									<Name classname='Str'>
+										<value>Count sequences</value>
+									</Name>
+									<Description classname='Str'>
+										<value>The total number of sequences in all the analyzed files.
+Count per sequence file: False
+Count per analysis: True</value>
+									</Description>
+									<Category classname='Str'>
+										<value>Statistics</value>
+									</Category>
+									<Severity classname='Num'>
+										<value>2</value>
+									</Severity>
+									<StringResourceCategory classname='Str'>
+										<value>NI_RULES</value>
+									</StringResourceCategory>
+									<IsBuiltin classname='Bool'>
+										<value>true</value>
+									</IsBuiltin>
+									<RuleSettingDefinitions classname='Objs'>
+										<value lbound='[0]' ubound='[1]'>
+											<value>
+												<Obj name=''>
+													<subprops>
+														<Name classname='Str'>
+															<value>Count Per Sequence File</value>
+														</Name>
+														<Type classname='Num'>
+															<value>2</value>
+														</Type>
+														<EnumerationName classname='Str'>
+															<value/>
+														</EnumerationName>
+														<DefaultValue classname='Bool'>
+															<value>false</value>
+														</DefaultValue>
+													</subprops>
+												</Obj>
+											</value>
+											<value>
+												<Obj name=''>
+													<subprops>
+														<Name classname='Str'>
+															<value>Count For Entire Analysis</value>
+														</Name>
+														<Type classname='Num'>
+															<value>2</value>
+														</Type>
+														<EnumerationName classname='Str'>
+															<value/>
+														</EnumerationName>
+														<DefaultValue classname='Bool'>
+															<value>true</value>
+														</DefaultValue>
+													</subprops>
+												</Obj>
+											</value>
+										</value>
+									</RuleSettingDefinitions>
+									<Enumerations classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</Enumerations>
+								</subprops>
+							</Obj>
+						</value>
+						<value>
+							<Obj name=''>
+								<subprops>
+									<Id classname='Str'>
+										<value>NI_StepCount</value>
+									</Id>
+									<Name classname='Str'>
+										<value>Count steps</value>
+									</Name>
+									<Description classname='Str'>
+										<value>The total number of steps in all the analyzed files.
+Count per sequence: False
+Count per sequence file: False
+Count per analysis: True</value>
+									</Description>
+									<Category classname='Str'>
+										<value>Statistics</value>
+									</Category>
+									<Severity classname='Num'>
+										<value>2</value>
+									</Severity>
+									<StringResourceCategory classname='Str'>
+										<value>NI_RULES</value>
+									</StringResourceCategory>
+									<IsBuiltin classname='Bool'>
+										<value>true</value>
+									</IsBuiltin>
+									<RuleSettingDefinitions classname='Objs'>
+										<value lbound='[0]' ubound='[2]'>
+											<value>
+												<Obj name=''>
+													<subprops>
+														<Name classname='Str'>
+															<value>Count Per Sequence</value>
+														</Name>
+														<Type classname='Num'>
+															<value>2</value>
+														</Type>
+														<EnumerationName classname='Str'>
+															<value/>
+														</EnumerationName>
+														<DefaultValue classname='Bool'>
+															<value>false</value>
+														</DefaultValue>
+													</subprops>
+												</Obj>
+											</value>
+											<value>
+												<Obj name=''>
+													<subprops>
+														<Name classname='Str'>
+															<value>Count Per Sequence File</value>
+														</Name>
+														<Type classname='Num'>
+															<value>2</value>
+														</Type>
+														<EnumerationName classname='Str'>
+															<value/>
+														</EnumerationName>
+														<DefaultValue classname='Bool'>
+															<value>false</value>
+														</DefaultValue>
+													</subprops>
+												</Obj>
+											</value>
+											<value>
+												<Obj name=''>
+													<subprops>
+														<Name classname='Str'>
+															<value>Count For Entire Analysis</value>
+														</Name>
+														<Type classname='Num'>
+															<value>2</value>
+														</Type>
+														<EnumerationName classname='Str'>
+															<value/>
+														</EnumerationName>
+														<DefaultValue classname='Bool'>
+															<value>true</value>
+														</DefaultValue>
+													</subprops>
+												</Obj>
+											</value>
+										</value>
+									</RuleSettingDefinitions>
+									<Enumerations classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</Enumerations>
+								</subprops>
+							</Obj>
+						</value>
+						<value>
+							<Obj name=''>
+								<subprops>
+									<Id classname='Str'>
+										<value>NI_PartialOutputArrayLogged</value>
+									</Id>
+									<Name classname='Str'>
+										<value>Delete subelements of an output array parameter if you intend to log the entire array</value>
+									</Name>
+									<Description classname='Str'>
+										<value>If you enable additional result logging for an output array parameter on a LabVIEW or .NET step and the parameter contains subelements,
+the step logs only the subelements and not the entire array. An array parameter contains subelements if you added them manually when
+you specified the code module or if the code module is a LabVIEW VI that defines default element values for the array. To log the
+entire array, delete all the parameter subelements when you specify the code module. Ignore this message if you intend to log only
+the parameter subelements.</value>
+									</Description>
+									<Category classname='Str'>
+										<value>General</value>
+									</Category>
+									<Severity classname='Num'>
+										<value>1</value>
+									</Severity>
+									<StringResourceCategory classname='Str'>
+										<value>NI_RULES</value>
+									</StringResourceCategory>
+									<IsBuiltin classname='Bool'>
+										<value>true</value>
+									</IsBuiltin>
+									<RuleSettingDefinitions classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</RuleSettingDefinitions>
+									<Enumerations classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</Enumerations>
+								</subprops>
+							</Obj>
+						</value>
+						<value>
+							<Obj name=''>
+								<subprops>
+									<Id classname='Str'>
+										<value>NI_ModelSequenceCallResultsEnabled</value>
+									</Id>
+									<Name classname='Str'>
+										<value>Disable result recording for all process model sequences except the MainSequence callback</value>
+									</Name>
+									<Description classname='Str'>
+										<value>If you enable result recording for a process model sequence other than the MainSequence callback, On-The-Fly reporting might not work
+correctly. Disable result recording for all process model sequences except the MainSequence callback.</value>
+									</Description>
+									<Category classname='Str'>
+										<value>General</value>
+									</Category>
+									<Severity classname='Num'>
+										<value>1</value>
+									</Severity>
+									<StringResourceCategory classname='Str'>
+										<value>NI_RULES</value>
+									</StringResourceCategory>
+									<IsBuiltin classname='Bool'>
+										<value>true</value>
+									</IsBuiltin>
+									<RuleSettingDefinitions classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</RuleSettingDefinitions>
+									<Enumerations classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</Enumerations>
+								</subprops>
+							</Obj>
+						</value>
+						<value>
+							<Obj name=''>
+								<subprops>
+									<Id classname='Str'>
+										<value>NI_InvalidEnumerationValue</value>
+									</Id>
+									<Name classname='Str'>
+										<value>Enumeration values must be valid</value>
+									</Name>
+									<Description classname='Str'>
+										<value>Each instance of an enumeration type must have a value that the type defines as valid.</value>
+									</Description>
+									<Category classname='Str'>
+										<value>General</value>
+									</Category>
+									<Severity classname='Num'>
+										<value>0</value>
+									</Severity>
+									<StringResourceCategory classname='Str'>
+										<value>NI_RULES</value>
+									</StringResourceCategory>
+									<IsBuiltin classname='Bool'>
+										<value>true</value>
+									</IsBuiltin>
+									<RuleSettingDefinitions classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</RuleSettingDefinitions>
+									<Enumerations classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</Enumerations>
+								</subprops>
+							</Obj>
+						</value>
+						<value>
+							<Obj name=''>
+								<subprops>
+									<Id classname='Str'>
+										<value>NI_ExpressionEvaluationError</value>
+									</Id>
+									<Name classname='Str'>
+										<value>Expressions must evaluate to a value of the expected type</value>
+									</Name>
+									<Description classname='Str'>
+										<value>Each expression property must not include syntax errors and must evaluate to a value of the type
+ the property expects. Syntax errors and incorrect value types can cause errors at run time.
+If you are certain that the expression will evaluate correctly at run time, such as when you dynamically
+create variables or when you propagate variables, use the #NoValidation directive in the expression
+to suppress the error.</value>
+									</Description>
+									<Category classname='Str'>
+										<value>General</value>
+									</Category>
+									<Severity classname='Num'>
+										<value>0</value>
+									</Severity>
+									<StringResourceCategory classname='Str'>
+										<value>NI_RULES</value>
+									</StringResourceCategory>
+									<IsBuiltin classname='Bool'>
+										<value>true</value>
+									</IsBuiltin>
+									<RuleSettingDefinitions classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</RuleSettingDefinitions>
+									<Enumerations classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</Enumerations>
+								</subprops>
+							</Obj>
+						</value>
+						<value>
+							<Obj name=''>
+								<subprops>
+									<Id classname='Str'>
+										<value>NI_NotSupportedFeature</value>
+									</Id>
+									<Name classname='Str'>
+										<value>Feature is not supported</value>
+									</Name>
+									<Description classname='Str'>
+										<value>Feature is not supported in the current bitness of TestStand that you are using.</value>
+									</Description>
+									<Category classname='Str'>
+										<value>General</value>
+									</Category>
+									<Severity classname='Num'>
+										<value>0</value>
+									</Severity>
+									<StringResourceCategory classname='Str'>
+										<value>NI_RULES</value>
+									</StringResourceCategory>
+									<IsBuiltin classname='Bool'>
+										<value>true</value>
+									</IsBuiltin>
+									<RuleSettingDefinitions classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</RuleSettingDefinitions>
+									<Enumerations classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</Enumerations>
+								</subprops>
+							</Obj>
+						</value>
+						<value>
+							<Obj name=''>
+								<subprops>
+									<Id classname='Str'>
+										<value>NI_FileLockedAnalysisError</value>
+									</Id>
+									<Name classname='Str'>
+										<value>File Locked Error</value>
+									</Name>
+									<Description classname='Str'>
+										<value>The sequence analyzer uses this rule to report errors for files that it could not analyze because the
+files are locked and not viewable. You cannot disable this rule.</value>
+									</Description>
+									<Category classname='Str'>
+										<value>Analysis Errors</value>
+									</Category>
+									<Severity classname='Num'>
+										<value>1</value>
+									</Severity>
+									<StringResourceCategory classname='Str'>
+										<value>NI_RULES</value>
+									</StringResourceCategory>
+									<IsBuiltin classname='Bool'>
+										<value>false</value>
+									</IsBuiltin>
+									<RuleSettingDefinitions classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</RuleSettingDefinitions>
+									<Enumerations classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</Enumerations>
+								</subprops>
+							</Obj>
+						</value>
+						<value>
+							<Obj name=''>
+								<subprops>
+									<Id classname='Str'>
+										<value>NI_FileOpenAnalysisError</value>
+									</Id>
+									<Name classname='Str'>
+										<value>File Open Error</value>
+									</Name>
+									<Description classname='Str'>
+										<value>The sequence analyzer uses this rule to report errors that occur when opening files during analysis.
+You cannot disable this rule.</value>
+									</Description>
+									<Category classname='Str'>
+										<value>Analysis Errors</value>
+									</Category>
+									<Severity classname='Num'>
+										<value>0</value>
+									</Severity>
+									<StringResourceCategory classname='Str'>
+										<value>NI_RULES</value>
+									</StringResourceCategory>
+									<IsBuiltin classname='Bool'>
+										<value>false</value>
+									</IsBuiltin>
+									<RuleSettingDefinitions classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</RuleSettingDefinitions>
+									<Enumerations classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</Enumerations>
+								</subprops>
+							</Obj>
+						</value>
+						<value>
+							<Obj name=''>
+								<subprops>
+									<Id classname='Str'>
+										<value>NI_FileNotFoundWarning</value>
+									</Id>
+									<Name classname='Str'>
+										<value>Files should be found on disk</value>
+									</Name>
+									<Description classname='Str'>
+										<value>File paths should refer to existing files on disk. TestStand does not report errors at run time for
+these files, but the path specified cannot be found.  Correct the problem by changing the path to point to the correct
+file or by creating the file on disk.  Ignore this message if the file is created dynamically at run time.</value>
+									</Description>
+									<Category classname='Str'>
+										<value>General</value>
+									</Category>
+									<Severity classname='Num'>
+										<value>1</value>
+									</Severity>
+									<StringResourceCategory classname='Str'>
+										<value>NI_RULES</value>
+									</StringResourceCategory>
+									<IsBuiltin classname='Bool'>
+										<value>true</value>
+									</IsBuiltin>
+									<RuleSettingDefinitions classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</RuleSettingDefinitions>
+									<Enumerations classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</Enumerations>
+								</subprops>
+							</Obj>
+						</value>
+						<value>
+							<Obj name=''>
+								<subprops>
+									<Id classname='Str'>
+										<value>NI_FileNotFound</value>
+									</Id>
+									<Name classname='Str'>
+										<value>Files/directories must be found on disk</value>
+									</Name>
+									<Description classname='Str'>
+										<value>File/directory path must refer to existing files/directories on disk. TestStand can report errors at run time if it cannot
+find the file/directory the path specifies. Correct the problem by correcting the path or by creating
+the file/directory on disk. You can safely ignore this message if the file/directory is created dynamically at run time.</value>
+									</Description>
+									<Category classname='Str'>
+										<value>General</value>
+									</Category>
+									<Severity classname='Num'>
+										<value>0</value>
+									</Severity>
+									<StringResourceCategory classname='Str'>
+										<value>NI_RULES</value>
+									</StringResourceCategory>
+									<IsBuiltin classname='Bool'>
+										<value>true</value>
+									</IsBuiltin>
+									<RuleSettingDefinitions classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</RuleSettingDefinitions>
+									<Enumerations classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</Enumerations>
+								</subprops>
+							</Obj>
+						</value>
+						<value>
+							<Obj name=''>
+								<subprops>
+									<Id classname='Str'>
+										<value>NI_FileByExpression</value>
+									</Id>
+									<Name classname='Str'>
+										<value>Find file paths that expressions specify</value>
+									</Name>
+									<Description classname='Str'>
+										<value>Files that path expressions reference might not be included in the set of files to analyze.
+This rule provides a list of those expressions. You might need to manually add files expressions
+reference to the workspace for correct deployment. </value>
+									</Description>
+									<Category classname='Str'>
+										<value>General</value>
+									</Category>
+									<Severity classname='Num'>
+										<value>2</value>
+									</Severity>
+									<StringResourceCategory classname='Str'>
+										<value>NI_RULES</value>
+									</StringResourceCategory>
+									<IsBuiltin classname='Bool'>
+										<value>true</value>
+									</IsBuiltin>
+									<RuleSettingDefinitions classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</RuleSettingDefinitions>
+									<Enumerations classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</Enumerations>
+								</subprops>
+							</Obj>
+						</value>
+						<value>
+							<Obj name=''>
+								<subprops>
+									<Id classname='Str'>
+										<value>NI_InternalAnalysisError</value>
+									</Id>
+									<Name classname='Str'>
+										<value>Internal Error</value>
+									</Name>
+									<Description classname='Str'>
+										<value>The sequence analyzer uses this rule to report internal errors that occur during analysis. These messages
+usually indicate a serious problem with a component of the sequence analyzer. Report the information to
+the component owner or to National Instruments. You cannot disable this rule.</value>
+									</Description>
+									<Category classname='Str'>
+										<value>Analysis Errors</value>
+									</Category>
+									<Severity classname='Num'>
+										<value>0</value>
+									</Severity>
+									<StringResourceCategory classname='Str'>
+										<value>NI_RULES</value>
+									</StringResourceCategory>
+									<IsBuiltin classname='Bool'>
+										<value>true</value>
+									</IsBuiltin>
+									<RuleSettingDefinitions classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</RuleSettingDefinitions>
+									<Enumerations classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</Enumerations>
+								</subprops>
+							</Obj>
+						</value>
+						<value>
+							<Obj name=''>
+								<subprops>
+									<Id classname='Str'>
+										<value>JMETestSolutions_getMalformedRequirements</value>
+									</Id>
+									<Name classname='Str'>
+										<value>Malformed Requirement</value>
+									</Name>
+									<Description classname='Str'>
+										<value>Returns any requirement thatis not in the "Requirement,Summary,Status" Format</value>
+									</Description>
+									<Category classname='Str'>
+										<value>JMETestSolutions</value>
+									</Category>
+									<Severity classname='Num'>
+										<value>0</value>
+									</Severity>
+									<StringResourceCategory classname='Str'>
+										<value/>
+									</StringResourceCategory>
+									<IsBuiltin classname='Bool'>
+										<value>false</value>
+									</IsBuiltin>
+									<RuleSettingDefinitions classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</RuleSettingDefinitions>
+									<Enumerations classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</Enumerations>
+								</subprops>
+							</Obj>
+						</value>
+						<value>
+							<Obj name=''>
+								<subprops>
+									<Id classname='Str'>
+										<value>NI_InvalidPropertyLoaderSource</value>
+									</Id>
+									<Name classname='Str'>
+										<value>Property Loader source should be proper</value>
+									</Name>
+									<Description classname='Str'>
+										<value>Property Loader source should exists. The source should be according to valid format.</value>
+									</Description>
+									<Category classname='Str'>
+										<value>General</value>
+									</Category>
+									<Severity classname='Num'>
+										<value>0</value>
+									</Severity>
+									<StringResourceCategory classname='Str'>
+										<value>NI_RULES</value>
+									</StringResourceCategory>
+									<IsBuiltin classname='Bool'>
+										<value>true</value>
+									</IsBuiltin>
+									<RuleSettingDefinitions classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</RuleSettingDefinitions>
+									<Enumerations classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</Enumerations>
+								</subprops>
+							</Obj>
+						</value>
+						<value>
+							<Obj name=''>
+								<subprops>
+									<Id classname='Str'>
+										<value>NI_RemoteHostExists</value>
+									</Id>
+									<Name classname='Str'>
+										<value>Remote computer must be on the network</value>
+									</Name>
+									<Description classname='Str'>
+										<value>Step properties that refer to remote computers must specify a valid network computer by IP address or by computer name.
+Ignore this message if the computer will exist at run time.</value>
+									</Description>
+									<Category classname='Str'>
+										<value>General</value>
+									</Category>
+									<Severity classname='Num'>
+										<value>0</value>
+									</Severity>
+									<StringResourceCategory classname='Str'>
+										<value>NI_RULES</value>
+									</StringResourceCategory>
+									<IsBuiltin classname='Bool'>
+										<value>true</value>
+									</IsBuiltin>
+									<RuleSettingDefinitions classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</RuleSettingDefinitions>
+									<Enumerations classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</Enumerations>
+								</subprops>
+							</Obj>
+						</value>
+						<value>
+							<Obj name=''>
+								<subprops>
+									<Id classname='Str'>
+										<value>JMETestSolutions_getAllRequirements</value>
+									</Id>
+									<Name classname='Str'>
+										<value>Requirements</value>
+									</Name>
+									<Description classname='Str'>
+										<value>Returns all of the requirements in sequences or steps</value>
+									</Description>
+									<Category classname='Str'>
+										<value>JMETestSolutions</value>
+									</Category>
+									<Severity classname='Num'>
+										<value>2</value>
+									</Severity>
+									<StringResourceCategory classname='Str'>
+										<value/>
+									</StringResourceCategory>
+									<IsBuiltin classname='Bool'>
+										<value>false</value>
+									</IsBuiltin>
+									<RuleSettingDefinitions classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</RuleSettingDefinitions>
+									<Enumerations classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</Enumerations>
+								</subprops>
+							</Obj>
+						</value>
+						<value>
+							<Obj name=''>
+								<subprops>
+									<Id classname='Str'>
+										<value>NI_SequencePrototypeMatch</value>
+									</Id>
+									<Name classname='Str'>
+										<value>Sequence calls should match the sequence prototype</value>
+									</Name>
+									<Description classname='Str'>
+										<value>The prototype for the sequence that a sequence call step calls should match the prototype
+the step specifies. You can ignore this rule for sequence calls in which you intend to pass a different
+set of parameters and if you check the parameters in the called sequence.</value>
+									</Description>
+									<Category classname='Str'>
+										<value>General</value>
+									</Category>
+									<Severity classname='Num'>
+										<value>1</value>
+									</Severity>
+									<StringResourceCategory classname='Str'>
+										<value>NI_RULES</value>
+									</StringResourceCategory>
+									<IsBuiltin classname='Bool'>
+										<value>true</value>
+									</IsBuiltin>
+									<RuleSettingDefinitions classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</RuleSettingDefinitions>
+									<Enumerations classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</Enumerations>
+								</subprops>
+							</Obj>
+						</value>
+						<value>
+							<Obj name=''>
+								<subprops>
+									<Id classname='Str'>
+										<value>NI_UnusedSequence</value>
+									</Id>
+									<Name classname='Str'>
+										<value>Sequences should be used</value>
+									</Name>
+									<Description classname='Str'>
+										<value>Unused sequences add extraneous information to sequence files and needlessly increase the size
+of the file. Delete sequences if you never use them. You can ignore this error for sequences that you call
+by expression or if you call the sequence from a sequence file that was not analyzed.</value>
+									</Description>
+									<Category classname='Str'>
+										<value>General</value>
+									</Category>
+									<Severity classname='Num'>
+										<value>1</value>
+									</Severity>
+									<StringResourceCategory classname='Str'>
+										<value>NI_RULES</value>
+									</StringResourceCategory>
+									<IsBuiltin classname='Bool'>
+										<value>true</value>
+									</IsBuiltin>
+									<RuleSettingDefinitions classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</RuleSettingDefinitions>
+									<Enumerations classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</Enumerations>
+								</subprops>
+							</Obj>
+						</value>
+						<value>
+							<Obj name=''>
+								<subprops>
+									<Id classname='Str'>
+										<value>NI_InvalidPropertyValue</value>
+									</Id>
+									<Name classname='Str'>
+										<value>Step properties must have valid values</value>
+									</Name>
+									<Description classname='Str'>
+										<value>All step properties must have valid values. Invalid property values can cause errors at run time.
+Use the Step Settings pane to set the property to a valid value. Ignore this message if the property
+will be set dynamically to a correct value at run time.</value>
+									</Description>
+									<Category classname='Str'>
+										<value>General</value>
+									</Category>
+									<Severity classname='Num'>
+										<value>0</value>
+									</Severity>
+									<StringResourceCategory classname='Str'>
+										<value>NI_RULES</value>
+									</StringResourceCategory>
+									<IsBuiltin classname='Bool'>
+										<value>true</value>
+									</IsBuiltin>
+									<RuleSettingDefinitions classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</RuleSettingDefinitions>
+									<Enumerations classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</Enumerations>
+								</subprops>
+							</Obj>
+						</value>
+						<value>
+							<Obj name=''>
+								<subprops>
+									<Id classname='Str'>
+										<value>NI_BlockErrors</value>
+									</Id>
+									<Name classname='Str'>
+										<value>Steps must have expected block structure</value>
+									</Name>
+									<Description classname='Str'>
+										<value>Steps with block structures, such as the Flow Control steps and the Auto Schedule step, must have matching
+End steps, and End steps must have a matching Begin step. Other block requirements exist for Select/Case
+and Auto Schedule/Use Auto Scheduled Resource steps. TestStand reports errors at run time for invalid
+block structures.</value>
+									</Description>
+									<Category classname='Str'>
+										<value>General</value>
+									</Category>
+									<Severity classname='Num'>
+										<value>0</value>
+									</Severity>
+									<StringResourceCategory classname='Str'>
+										<value>NI_RULES</value>
+									</StringResourceCategory>
+									<IsBuiltin classname='Bool'>
+										<value>true</value>
+									</IsBuiltin>
+									<RuleSettingDefinitions classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</RuleSettingDefinitions>
+									<Enumerations classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</Enumerations>
+								</subprops>
+							</Obj>
+						</value>
+						<value>
+							<Obj name=''>
+								<subprops>
+									<Id classname='Str'>
+										<value>NI_NormalRunMode</value>
+									</Id>
+									<Name classname='Str'>
+										<value>Steps should have Normal run mode</value>
+									</Name>
+									<Description classname='Str'>
+										<value>The run mode option for step should be set to Normal instead of Force Pass, Force Fail, or Skip to ensure that tests are performed correctly. Correct the setting on the Run Options Panel of the Step Settings pane in the TestStand Sequence Editor.  Ignore this message if a step is intentionally set to this run mode.</value>
+									</Description>
+									<Category classname='Str'>
+										<value>General</value>
+									</Category>
+									<Severity classname='Num'>
+										<value>1</value>
+									</Severity>
+									<StringResourceCategory classname='Str'>
+										<value>NI_RULES</value>
+									</StringResourceCategory>
+									<IsBuiltin classname='Bool'>
+										<value>true</value>
+									</IsBuiltin>
+									<RuleSettingDefinitions classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</RuleSettingDefinitions>
+									<Enumerations classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</Enumerations>
+								</subprops>
+							</Obj>
+						</value>
+						<value>
+							<Obj name=''>
+								<subprops>
+									<Id classname='Str'>
+										<value>NI_LVChecksumInvalid</value>
+									</Id>
+									<Name classname='Str'>
+										<value>Steps that call LabVIEW modules configured with LabVIEW 7.1.1 or earlier should reload module prototypes</value>
+									</Name>
+									<Description classname='Str'>
+										<value>The prototype information stored on steps that call LabVIEW code modules might not be compatible with LabVIEW 2012 or later.
+This warning occurs for a step that calls a LabVIEW code module and the step was last configured using LabVIEW 7.1.1 or earlier.
+The step calls the code module correctly, but TestStand might generate an error when executing the step using LabVIEW 2012 or later.  National Instruments recommends that you reload the prototype for the step or select Tools&gt;&gt;Update VI Calls to run the Update VI Calls tool on any sequence file that return this warning.</value>
+									</Description>
+									<Category classname='Str'>
+										<value>General</value>
+									</Category>
+									<Severity classname='Num'>
+										<value>1</value>
+									</Severity>
+									<StringResourceCategory classname='Str'>
+										<value>NI_RULES</value>
+									</StringResourceCategory>
+									<IsBuiltin classname='Bool'>
+										<value>true</value>
+									</IsBuiltin>
+									<RuleSettingDefinitions classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</RuleSettingDefinitions>
+									<Enumerations classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</Enumerations>
+								</subprops>
+							</Obj>
+						</value>
+						<value>
+							<Obj name=''>
+								<subprops>
+									<Id classname='Str'>
+										<value>NI_TypeVersionInvalid</value>
+									</Id>
+									<Name classname='Str'>
+										<value>Types should have the correct version</value>
+									</Name>
+									<Description classname='Str'>
+										<value>Ensure that all types have versions that will not conflict with the default versions TestStand installs.  This
+message can occur when you have a copy of CommonResults that is less than 3.1.0.100.  National Instruments recommends that
+you set the version of CommonResults to the default of 3.1.0.100 if it contains no subproperties and set the version of CommonResults greater than 3.1.0.100 if it
+contains subproperties.  Failure to change the version might cause type conflicts when loading files.</value>
+									</Description>
+									<Category classname='Str'>
+										<value>General</value>
+									</Category>
+									<Severity classname='Num'>
+										<value>1</value>
+									</Severity>
+									<StringResourceCategory classname='Str'>
+										<value>NI_RULES</value>
+									</StringResourceCategory>
+									<IsBuiltin classname='Bool'>
+										<value>true</value>
+									</IsBuiltin>
+									<RuleSettingDefinitions classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</RuleSettingDefinitions>
+									<Enumerations classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</Enumerations>
+								</subprops>
+							</Obj>
+						</value>
+						<value>
+							<Obj name=''>
+								<subprops>
+									<Id classname='Str'>
+										<value>JMETestSolutions_getUnfinishedRequirements</value>
+									</Id>
+									<Name classname='Str'>
+										<value>Unfinished Requirements</value>
+									</Name>
+									<Description classname='Str'>
+										<value>Returns any requirement not listed as "Done"</value>
+									</Description>
+									<Category classname='Str'>
+										<value>JMETestSolutions</value>
+									</Category>
+									<Severity classname='Num'>
+										<value>1</value>
+									</Severity>
+									<StringResourceCategory classname='Str'>
+										<value/>
+									</StringResourceCategory>
+									<IsBuiltin classname='Bool'>
+										<value>false</value>
+									</IsBuiltin>
+									<RuleSettingDefinitions classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</RuleSettingDefinitions>
+									<Enumerations classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</Enumerations>
+								</subprops>
+							</Obj>
+						</value>
+						<value>
+							<Obj name=''>
+								<subprops>
+									<Id classname='Str'>
+										<value>NI_UnusedVariables</value>
+									</Id>
+									<Name classname='Str'>
+										<value>Variables should be used</value>
+									</Name>
+									<Description classname='Str'>
+										<value>Unused variables and parameters add unnecessary complexity and extraneous information to sequence files.
+Delete variables if you never access them. You can ignore this rule for variables that you access
+in code modules or that you access using a lookup string with the TestStand API.</value>
+									</Description>
+									<Category classname='Str'>
+										<value>General</value>
+									</Category>
+									<Severity classname='Num'>
+										<value>1</value>
+									</Severity>
+									<StringResourceCategory classname='Str'>
+										<value>NI_RULES</value>
+									</StringResourceCategory>
+									<IsBuiltin classname='Bool'>
+										<value>true</value>
+									</IsBuiltin>
+									<RuleSettingDefinitions classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</RuleSettingDefinitions>
+									<Enumerations classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</Enumerations>
+								</subprops>
+							</Obj>
+						</value>
+						<value>
+							<Obj name=''>
+								<subprops>
+									<Id classname='Str'>
+										<value>NI_WatchExpressionsEnabled</value>
+									</Id>
+									<Name classname='Str'>
+										<value>Watch expressions are enabled</value>
+									</Name>
+									<Description classname='Str'>
+										<value>Using watch expressions during execution can negatively affect performance and cause slower
+execution speed. Use watch expressions only when debugging.  Select Debug&gt;&gt;Breakpoints/Watch Expressions
+to remove unused watch expressions.</value>
+									</Description>
+									<Category classname='Str'>
+										<value>Performance</value>
+									</Category>
+									<Severity classname='Num'>
+										<value>1</value>
+									</Severity>
+									<StringResourceCategory classname='Str'>
+										<value>NI_RULES</value>
+									</StringResourceCategory>
+									<IsBuiltin classname='Bool'>
+										<value>true</value>
+									</IsBuiltin>
+									<RuleSettingDefinitions classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</RuleSettingDefinitions>
+									<Enumerations classname='Objs'>
+										<value lbound='[0]' ubound='[]'/>
+									</Enumerations>
+								</subprops>
+							</Obj>
+						</value>
+					</value>
+				</RulesUsedForAnalysis>
+				<RuleSetUsedForAnalysis classname='Obj'>
+					<subprops>
+						<RuleData classname='Objs'>
+							<value lbound='[0]' ubound='[34]'>
+								<value>
+									<Obj name=''>
+										<subprops>
+											<RuleId classname='Str'>
+												<value>NI_AbsolutePaths</value>
+											</RuleId>
+											<Enabled classname='Bool'>
+												<value>true</value>
+											</Enabled>
+											<ConfigurationData classname='Obj'/>
+											<RuleSettings classname='Objs'>
+												<value lbound='[0]' ubound='[]'/>
+											</RuleSettings>
+											<Severity classname='Num'>
+												<value>3</value>
+											</Severity>
+											<Description classname='Str'>
+												<value/>
+											</Description>
+										</subprops>
+									</Obj>
+								</value>
+								<value>
+									<Obj name=''>
+										<subprops>
+											<RuleId classname='Str'>
+												<value>NI_BlockErrors</value>
+											</RuleId>
+											<Enabled classname='Bool'>
+												<value>true</value>
+											</Enabled>
+											<ConfigurationData classname='Obj'/>
+											<RuleSettings classname='Objs'>
+												<value lbound='[0]' ubound='[]'/>
+											</RuleSettings>
+											<Severity classname='Num'>
+												<value>3</value>
+											</Severity>
+											<Description classname='Str'>
+												<value/>
+											</Description>
+										</subprops>
+									</Obj>
+								</value>
+								<value>
+									<Obj name=''>
+										<subprops>
+											<RuleId classname='Str'>
+												<value>NI_CodeModuleOutOfDateWarning</value>
+											</RuleId>
+											<Enabled classname='Bool'>
+												<value>true</value>
+											</Enabled>
+											<ConfigurationData classname='Obj'/>
+											<RuleSettings classname='Objs'>
+												<value lbound='[0]' ubound='[]'/>
+											</RuleSettings>
+											<Severity classname='Num'>
+												<value>3</value>
+											</Severity>
+											<Description classname='Str'>
+												<value/>
+											</Description>
+										</subprops>
+									</Obj>
+								</value>
+								<value>
+									<Obj name=''>
+										<subprops>
+											<RuleId classname='Str'>
+												<value>NI_EscapeSequenceValid</value>
+											</RuleId>
+											<Enabled classname='Bool'>
+												<value>true</value>
+											</Enabled>
+											<ConfigurationData classname='Obj'/>
+											<RuleSettings classname='Objs'>
+												<value lbound='[0]' ubound='[]'/>
+											</RuleSettings>
+											<Severity classname='Num'>
+												<value>3</value>
+											</Severity>
+											<Description classname='Str'>
+												<value/>
+											</Description>
+										</subprops>
+									</Obj>
+								</value>
+								<value>
+									<Obj name=''>
+										<subprops>
+											<RuleId classname='Str'>
+												<value>NI_ExpressionEvaluationError</value>
+											</RuleId>
+											<Enabled classname='Bool'>
+												<value>true</value>
+											</Enabled>
+											<ConfigurationData classname='Obj'/>
+											<RuleSettings classname='Objs'>
+												<value lbound='[0]' ubound='[]'/>
+											</RuleSettings>
+											<Severity classname='Num'>
+												<value>3</value>
+											</Severity>
+											<Description classname='Str'>
+												<value/>
+											</Description>
+										</subprops>
+									</Obj>
+								</value>
+								<value>
+									<Obj name=''>
+										<subprops>
+											<RuleId classname='Str'>
+												<value>NI_FileByExpression</value>
+											</RuleId>
+											<Enabled classname='Bool'>
+												<value>true</value>
+											</Enabled>
+											<ConfigurationData classname='Obj'/>
+											<RuleSettings classname='Objs'>
+												<value lbound='[0]' ubound='[]'/>
+											</RuleSettings>
+											<Severity classname='Num'>
+												<value>3</value>
+											</Severity>
+											<Description classname='Str'>
+												<value/>
+											</Description>
+										</subprops>
+									</Obj>
+								</value>
+								<value>
+									<Obj name=''>
+										<subprops>
+											<RuleId classname='Str'>
+												<value>NI_FileLockedAnalysisError</value>
+											</RuleId>
+											<Enabled classname='Bool'>
+												<value>true</value>
+											</Enabled>
+											<ConfigurationData classname='Obj'/>
+											<RuleSettings classname='Objs'>
+												<value lbound='[0]' ubound='[]'/>
+											</RuleSettings>
+											<Severity classname='Num'>
+												<value>3</value>
+											</Severity>
+											<Description classname='Str'>
+												<value/>
+											</Description>
+										</subprops>
+									</Obj>
+								</value>
+								<value>
+									<Obj name=''>
+										<subprops>
+											<RuleId classname='Str'>
+												<value>NI_FileNotFound</value>
+											</RuleId>
+											<Enabled classname='Bool'>
+												<value>true</value>
+											</Enabled>
+											<ConfigurationData classname='Obj'/>
+											<RuleSettings classname='Objs'>
+												<value lbound='[0]' ubound='[]'/>
+											</RuleSettings>
+											<Severity classname='Num'>
+												<value>3</value>
+											</Severity>
+											<Description classname='Str'>
+												<value/>
+											</Description>
+										</subprops>
+									</Obj>
+								</value>
+								<value>
+									<Obj name=''>
+										<subprops>
+											<RuleId classname='Str'>
+												<value>NI_FileNotFoundWarning</value>
+											</RuleId>
+											<Enabled classname='Bool'>
+												<value>true</value>
+											</Enabled>
+											<ConfigurationData classname='Obj'/>
+											<RuleSettings classname='Objs'>
+												<value lbound='[0]' ubound='[]'/>
+											</RuleSettings>
+											<Severity classname='Num'>
+												<value>3</value>
+											</Severity>
+											<Description classname='Str'>
+												<value/>
+											</Description>
+										</subprops>
+									</Obj>
+								</value>
+								<value>
+									<Obj name=''>
+										<subprops>
+											<RuleId classname='Str'>
+												<value>NI_FileOpenAnalysisError</value>
+											</RuleId>
+											<Enabled classname='Bool'>
+												<value>true</value>
+											</Enabled>
+											<ConfigurationData classname='Obj'/>
+											<RuleSettings classname='Objs'>
+												<value lbound='[0]' ubound='[]'/>
+											</RuleSettings>
+											<Severity classname='Num'>
+												<value>3</value>
+											</Severity>
+											<Description classname='Str'>
+												<value/>
+											</Description>
+										</subprops>
+									</Obj>
+								</value>
+								<value>
+									<Obj name=''>
+										<subprops>
+											<RuleId classname='Str'>
+												<value>NI_ValidPath</value>
+											</RuleId>
+											<Enabled classname='Bool'>
+												<value>true</value>
+											</Enabled>
+											<ConfigurationData classname='Obj'/>
+											<RuleSettings classname='Objs'>
+												<value lbound='[0]' ubound='[]'/>
+											</RuleSettings>
+											<Severity classname='Num'>
+												<value>3</value>
+											</Severity>
+											<Description classname='Str'>
+												<value/>
+											</Description>
+										</subprops>
+									</Obj>
+								</value>
+								<value>
+									<Obj name=''>
+										<subprops>
+											<RuleId classname='Str'>
+												<value>NI_InternalAnalysisError</value>
+											</RuleId>
+											<Enabled classname='Bool'>
+												<value>true</value>
+											</Enabled>
+											<ConfigurationData classname='Obj'/>
+											<RuleSettings classname='Objs'>
+												<value lbound='[0]' ubound='[]'/>
+											</RuleSettings>
+											<Severity classname='Num'>
+												<value>3</value>
+											</Severity>
+											<Description classname='Str'>
+												<value/>
+											</Description>
+										</subprops>
+									</Obj>
+								</value>
+								<value>
+									<Obj name=''>
+										<subprops>
+											<RuleId classname='Str'>
+												<value>NI_InvalidEnumerationValue</value>
+											</RuleId>
+											<Enabled classname='Bool'>
+												<value>true</value>
+											</Enabled>
+											<ConfigurationData classname='Obj'/>
+											<RuleSettings classname='Objs'>
+												<value lbound='[0]' ubound='[]'/>
+											</RuleSettings>
+											<Severity classname='Num'>
+												<value>3</value>
+											</Severity>
+											<Description classname='Str'>
+												<value/>
+											</Description>
+										</subprops>
+									</Obj>
+								</value>
+								<value>
+									<Obj name=''>
+										<subprops>
+											<RuleId classname='Str'>
+												<value>NI_InvalidPropertyValue</value>
+											</RuleId>
+											<Enabled classname='Bool'>
+												<value>true</value>
+											</Enabled>
+											<ConfigurationData classname='Obj'/>
+											<RuleSettings classname='Objs'>
+												<value lbound='[0]' ubound='[]'/>
+											</RuleSettings>
+											<Severity classname='Num'>
+												<value>3</value>
+											</Severity>
+											<Description classname='Str'>
+												<value/>
+											</Description>
+										</subprops>
+									</Obj>
+								</value>
+								<value>
+									<Obj name=''>
+										<subprops>
+											<RuleId classname='Str'>
+												<value>NI_LVChecksumInvalid</value>
+											</RuleId>
+											<Enabled classname='Bool'>
+												<value>true</value>
+											</Enabled>
+											<ConfigurationData classname='Obj'/>
+											<RuleSettings classname='Objs'>
+												<value lbound='[0]' ubound='[]'/>
+											</RuleSettings>
+											<Severity classname='Num'>
+												<value>3</value>
+											</Severity>
+											<Description classname='Str'>
+												<value/>
+											</Description>
+										</subprops>
+									</Obj>
+								</value>
+								<value>
+									<Obj name=''>
+										<subprops>
+											<RuleId classname='Str'>
+												<value>JMETestSolutions_getMalformedRequirements</value>
+											</RuleId>
+											<Enabled classname='Bool'>
+												<value>true</value>
+											</Enabled>
+											<ConfigurationData classname='Obj'/>
+											<RuleSettings classname='Objs'>
+												<value lbound='[0]' ubound='[]'/>
+											</RuleSettings>
+											<Severity classname='Num'>
+												<value>3</value>
+											</Severity>
+											<Description classname='Str'>
+												<value/>
+											</Description>
+										</subprops>
+									</Obj>
+								</value>
+								<value>
+									<Obj name=''>
+										<subprops>
+											<RuleId classname='Str'>
+												<value>NI_ModelSequenceCallResultsEnabled</value>
+											</RuleId>
+											<Enabled classname='Bool'>
+												<value>true</value>
+											</Enabled>
+											<ConfigurationData classname='Obj'/>
+											<RuleSettings classname='Objs'>
+												<value lbound='[0]' ubound='[]'/>
+											</RuleSettings>
+											<Severity classname='Num'>
+												<value>3</value>
+											</Severity>
+											<Description classname='Str'>
+												<value/>
+											</Description>
+										</subprops>
+									</Obj>
+								</value>
+								<value>
+									<Obj name=''>
+										<subprops>
+											<RuleId classname='Str'>
+												<value>NI_ModuleLoadWarnings</value>
+											</RuleId>
+											<Enabled classname='Bool'>
+												<value>true</value>
+											</Enabled>
+											<ConfigurationData classname='Obj'/>
+											<RuleSettings classname='Objs'>
+												<value lbound='[0]' ubound='[]'/>
+											</RuleSettings>
+											<Severity classname='Num'>
+												<value>3</value>
+											</Severity>
+											<Description classname='Str'>
+												<value/>
+											</Description>
+										</subprops>
+									</Obj>
+								</value>
+								<value>
+									<Obj name=''>
+										<subprops>
+											<RuleId classname='Str'>
+												<value>NI_ModuleLoadable</value>
+											</RuleId>
+											<Enabled classname='Bool'>
+												<value>true</value>
+											</Enabled>
+											<ConfigurationData classname='Obj'/>
+											<RuleSettings classname='Objs'>
+												<value lbound='[0]' ubound='[]'/>
+											</RuleSettings>
+											<Severity classname='Num'>
+												<value>3</value>
+											</Severity>
+											<Description classname='Str'>
+												<value/>
+											</Description>
+										</subprops>
+									</Obj>
+								</value>
+								<value>
+									<Obj name=''>
+										<subprops>
+											<RuleId classname='Str'>
+												<value>NI_PartialOutputArrayLogged</value>
+											</RuleId>
+											<Enabled classname='Bool'>
+												<value>true</value>
+											</Enabled>
+											<ConfigurationData classname='Obj'/>
+											<RuleSettings classname='Objs'>
+												<value lbound='[0]' ubound='[]'/>
+											</RuleSettings>
+											<Severity classname='Num'>
+												<value>3</value>
+											</Severity>
+											<Description classname='Str'>
+												<value/>
+											</Description>
+										</subprops>
+									</Obj>
+								</value>
+								<value>
+									<Obj name=''>
+										<subprops>
+											<RuleId classname='Str'>
+												<value>NI_NormalRunMode</value>
+											</RuleId>
+											<Enabled classname='Bool'>
+												<value>true</value>
+											</Enabled>
+											<ConfigurationData classname='Obj'/>
+											<RuleSettings classname='Objs'>
+												<value lbound='[0]' ubound='[]'/>
+											</RuleSettings>
+											<Severity classname='Num'>
+												<value>3</value>
+											</Severity>
+											<Description classname='Str'>
+												<value/>
+											</Description>
+										</subprops>
+									</Obj>
+								</value>
+								<value>
+									<Obj name=''>
+										<subprops>
+											<RuleId classname='Str'>
+												<value>NI_NotSupportedFeature</value>
+											</RuleId>
+											<Enabled classname='Bool'>
+												<value>true</value>
+											</Enabled>
+											<ConfigurationData classname='Obj'/>
+											<RuleSettings classname='Objs'>
+												<value lbound='[0]' ubound='[]'/>
+											</RuleSettings>
+											<Severity classname='Num'>
+												<value>3</value>
+											</Severity>
+											<Description classname='Str'>
+												<value/>
+											</Description>
+										</subprops>
+									</Obj>
+								</value>
+								<value>
+									<Obj name=''>
+										<subprops>
+											<RuleId classname='Str'>
+												<value>NI_InvalidPropertyLoaderSource</value>
+											</RuleId>
+											<Enabled classname='Bool'>
+												<value>true</value>
+											</Enabled>
+											<ConfigurationData classname='Obj'/>
+											<RuleSettings classname='Objs'>
+												<value lbound='[0]' ubound='[]'/>
+											</RuleSettings>
+											<Severity classname='Num'>
+												<value>3</value>
+											</Severity>
+											<Description classname='Str'>
+												<value/>
+											</Description>
+										</subprops>
+									</Obj>
+								</value>
+								<value>
+									<Obj name=''>
+										<subprops>
+											<RuleId classname='Str'>
+												<value>NI_PrototypeCompatible</value>
+											</RuleId>
+											<Enabled classname='Bool'>
+												<value>true</value>
+											</Enabled>
+											<ConfigurationData classname='Obj'/>
+											<RuleSettings classname='Objs'>
+												<value lbound='[0]' ubound='[]'/>
+											</RuleSettings>
+											<Severity classname='Num'>
+												<value>3</value>
+											</Severity>
+											<Description classname='Str'>
+												<value/>
+											</Description>
+										</subprops>
+									</Obj>
+								</value>
+								<value>
+									<Obj name=''>
+										<subprops>
+											<RuleId classname='Str'>
+												<value>NI_RemoteHostExists</value>
+											</RuleId>
+											<Enabled classname='Bool'>
+												<value>true</value>
+											</Enabled>
+											<ConfigurationData classname='Obj'/>
+											<RuleSettings classname='Objs'>
+												<value lbound='[0]' ubound='[]'/>
+											</RuleSettings>
+											<Severity classname='Num'>
+												<value>3</value>
+											</Severity>
+											<Description classname='Str'>
+												<value/>
+											</Description>
+										</subprops>
+									</Obj>
+								</value>
+								<value>
+									<Obj name=''>
+										<subprops>
+											<RuleId classname='Str'>
+												<value>JMETestSolutions_getAllRequirements</value>
+											</RuleId>
+											<Enabled classname='Bool'>
+												<value>true</value>
+											</Enabled>
+											<ConfigurationData classname='Obj'/>
+											<RuleSettings classname='Objs'>
+												<value lbound='[0]' ubound='[]'/>
+											</RuleSettings>
+											<Severity classname='Num'>
+												<value>3</value>
+											</Severity>
+											<Description classname='Str'>
+												<value/>
+											</Description>
+										</subprops>
+									</Obj>
+								</value>
+								<value>
+									<Obj name=''>
+										<subprops>
+											<RuleId classname='Str'>
+												<value>NI_SequenceCount</value>
+											</RuleId>
+											<Enabled classname='Bool'>
+												<value>true</value>
+											</Enabled>
+											<ConfigurationData classname='Obj'/>
+											<RuleSettings classname='Objs'>
+												<value lbound='[0]' ubound='[1]'>
+													<value>
+														<Obj name=''>
+															<subprops>
+																<Name classname='Str'>
+																	<value>Count Per Sequence File</value>
+																</Name>
+																<Type classname='Num'>
+																	<value>2</value>
+																</Type>
+																<EnumerationName classname='Str'>
+																	<value/>
+																</EnumerationName>
+																<SettingValue classname='Bool'>
+																	<value>false</value>
+																</SettingValue>
+															</subprops>
+														</Obj>
+													</value>
+													<value>
+														<Obj name=''>
+															<subprops>
+																<Name classname='Str'>
+																	<value>Count For Entire Analysis</value>
+																</Name>
+																<Type classname='Num'>
+																	<value>2</value>
+																</Type>
+																<EnumerationName classname='Str'>
+																	<value/>
+																</EnumerationName>
+																<SettingValue classname='Bool'>
+																	<value>true</value>
+																</SettingValue>
+															</subprops>
+														</Obj>
+													</value>
+												</value>
+											</RuleSettings>
+											<Severity classname='Num'>
+												<value>3</value>
+											</Severity>
+											<Description classname='Str'>
+												<value/>
+											</Description>
+										</subprops>
+									</Obj>
+								</value>
+								<value>
+									<Obj name=''>
+										<subprops>
+											<RuleId classname='Str'>
+												<value>NI_SequenceFileCount</value>
+											</RuleId>
+											<Enabled classname='Bool'>
+												<value>true</value>
+											</Enabled>
+											<ConfigurationData classname='Obj'/>
+											<RuleSettings classname='Objs'>
+												<value lbound='[0]' ubound='[]'/>
+											</RuleSettings>
+											<Severity classname='Num'>
+												<value>3</value>
+											</Severity>
+											<Description classname='Str'>
+												<value/>
+											</Description>
+										</subprops>
+									</Obj>
+								</value>
+								<value>
+									<Obj name=''>
+										<subprops>
+											<RuleId classname='Str'>
+												<value>NI_SequencePrototypeMatch</value>
+											</RuleId>
+											<Enabled classname='Bool'>
+												<value>true</value>
+											</Enabled>
+											<ConfigurationData classname='Obj'/>
+											<RuleSettings classname='Objs'>
+												<value lbound='[0]' ubound='[]'/>
+											</RuleSettings>
+											<Severity classname='Num'>
+												<value>3</value>
+											</Severity>
+											<Description classname='Str'>
+												<value/>
+											</Description>
+										</subprops>
+									</Obj>
+								</value>
+								<value>
+									<Obj name=''>
+										<subprops>
+											<RuleId classname='Str'>
+												<value>NI_StepCount</value>
+											</RuleId>
+											<Enabled classname='Bool'>
+												<value>true</value>
+											</Enabled>
+											<ConfigurationData classname='Obj'/>
+											<RuleSettings classname='Objs'>
+												<value lbound='[0]' ubound='[2]'>
+													<value>
+														<Obj name=''>
+															<subprops>
+																<Name classname='Str'>
+																	<value>Count Per Sequence</value>
+																</Name>
+																<Type classname='Num'>
+																	<value>2</value>
+																</Type>
+																<EnumerationName classname='Str'>
+																	<value/>
+																</EnumerationName>
+																<SettingValue classname='Bool'>
+																	<value>false</value>
+																</SettingValue>
+															</subprops>
+														</Obj>
+													</value>
+													<value>
+														<Obj name=''>
+															<subprops>
+																<Name classname='Str'>
+																	<value>Count Per Sequence File</value>
+																</Name>
+																<Type classname='Num'>
+																	<value>2</value>
+																</Type>
+																<EnumerationName classname='Str'>
+																	<value/>
+																</EnumerationName>
+																<SettingValue classname='Bool'>
+																	<value>false</value>
+																</SettingValue>
+															</subprops>
+														</Obj>
+													</value>
+													<value>
+														<Obj name=''>
+															<subprops>
+																<Name classname='Str'>
+																	<value>Count For Entire Analysis</value>
+																</Name>
+																<Type classname='Num'>
+																	<value>2</value>
+																</Type>
+																<EnumerationName classname='Str'>
+																	<value/>
+																</EnumerationName>
+																<SettingValue classname='Bool'>
+																	<value>true</value>
+																</SettingValue>
+															</subprops>
+														</Obj>
+													</value>
+												</value>
+											</RuleSettings>
+											<Severity classname='Num'>
+												<value>3</value>
+											</Severity>
+											<Description classname='Str'>
+												<value/>
+											</Description>
+										</subprops>
+									</Obj>
+								</value>
+								<value>
+									<Obj name=''>
+										<subprops>
+											<RuleId classname='Str'>
+												<value>NI_TypeVersionInvalid</value>
+											</RuleId>
+											<Enabled classname='Bool'>
+												<value>true</value>
+											</Enabled>
+											<ConfigurationData classname='Obj'/>
+											<RuleSettings classname='Objs'>
+												<value lbound='[0]' ubound='[]'/>
+											</RuleSettings>
+											<Severity classname='Num'>
+												<value>3</value>
+											</Severity>
+											<Description classname='Str'>
+												<value/>
+											</Description>
+										</subprops>
+									</Obj>
+								</value>
+								<value>
+									<Obj name=''>
+										<subprops>
+											<RuleId classname='Str'>
+												<value>JMETestSolutions_getUnfinishedRequirements</value>
+											</RuleId>
+											<Enabled classname='Bool'>
+												<value>true</value>
+											</Enabled>
+											<ConfigurationData classname='Obj'/>
+											<RuleSettings classname='Objs'>
+												<value lbound='[0]' ubound='[]'/>
+											</RuleSettings>
+											<Severity classname='Num'>
+												<value>3</value>
+											</Severity>
+											<Description classname='Str'>
+												<value/>
+											</Description>
+										</subprops>
+									</Obj>
+								</value>
+								<value>
+									<Obj name=''>
+										<subprops>
+											<RuleId classname='Str'>
+												<value>NI_UnusedSequence</value>
+											</RuleId>
+											<Enabled classname='Bool'>
+												<value>true</value>
+											</Enabled>
+											<ConfigurationData classname='Obj'/>
+											<RuleSettings classname='Objs'>
+												<value lbound='[0]' ubound='[]'/>
+											</RuleSettings>
+											<Severity classname='Num'>
+												<value>3</value>
+											</Severity>
+											<Description classname='Str'>
+												<value/>
+											</Description>
+										</subprops>
+									</Obj>
+								</value>
+								<value>
+									<Obj name=''>
+										<subprops>
+											<RuleId classname='Str'>
+												<value>NI_UnusedVariables</value>
+											</RuleId>
+											<Enabled classname='Bool'>
+												<value>true</value>
+											</Enabled>
+											<ConfigurationData classname='Obj'/>
+											<RuleSettings classname='Objs'>
+												<value lbound='[0]' ubound='[]'/>
+											</RuleSettings>
+											<Severity classname='Num'>
+												<value>3</value>
+											</Severity>
+											<Description classname='Str'>
+												<value/>
+											</Description>
+										</subprops>
+									</Obj>
+								</value>
+								<value>
+									<Obj name=''>
+										<subprops>
+											<RuleId classname='Str'>
+												<value>NI_WatchExpressionsEnabled</value>
+											</RuleId>
+											<Enabled classname='Bool'>
+												<value>true</value>
+											</Enabled>
+											<ConfigurationData classname='Obj'/>
+											<RuleSettings classname='Objs'>
+												<value lbound='[0]' ubound='[]'/>
+											</RuleSettings>
+											<Severity classname='Num'>
+												<value>3</value>
+											</Severity>
+											<Description classname='Str'>
+												<value/>
+											</Description>
+										</subprops>
+									</Obj>
+								</value>
+							</value>
+						</RuleData>
+						<Name classname='Str'>
+							<value/>
+						</Name>
+					</subprops>
+				</RuleSetUsedForAnalysis>
+				<AnalyzedFiles classname='Strs'>
+					<value lbound='[0]' ubound='[0]'>
+						<value arrayindex='[0]'>C:\Users\User\Documents\Subversion\SequenceAnalyzerRules\Example Requirements Sequence File.seq</value>
+					</value>
+				</AnalyzedFiles>
+				<AnalysisStatus classname='Obj'>
+					<subprops>
+						<UserName classname='Str'>
+							<value>User</value>
+						</UserName>
+						<ComputerName classname='Str'>
+							<value>WINDEV2012EVAL</value>
+						</ComputerName>
+						<TestStandVersion classname='Str'>
+							<value>20.0</value>
+						</TestStandVersion>
+						<ProjectFilePath classname='Str'>
+							<value>C:\Users\User\Documents\Subversion\SequenceAnalyzerRules\Example Requirements Sequence File.seq</value>
+						</ProjectFilePath>
+						<AnalysisStopped classname='Bool'>
+							<value>false</value>
+						</AnalysisStopped>
+						<StartTime classname='Num'>
+							<value>44268.55608796296</value>
+						</StartTime>
+						<StartTime_Formatted classname='Str'>
+							<value>3/13/2021 1:20:46 PM</value>
+						</StartTime_Formatted>
+						<ElapsedTime classname='Num'>
+							<value>0</value>
+						</ElapsedTime>
+						<ElapsedTime_Formatted classname='Str'>
+							<value>00:00:00</value>
+						</ElapsedTime_Formatted>
+					</subprops>
+				</AnalysisStatus>
+				<NumStepsNotAnalyzed classname='Num'>
+					<value>0</value>
+				</NumStepsNotAnalyzed>
+				<NumMessagesIgnoredInSequenceFiles classname='Num'>
+					<value>0</value>
+				</NumMessagesIgnoredInSequenceFiles>
+			</subprops>
+		</ReportData>
+	</TEOLEDataSource>
+</teststandfileheader>

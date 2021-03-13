@@ -1,0 +1,6 @@
+C:\Users\User\Documents\Subversion\SequenceAnalyzerRules\Requirements\Requirements\bin\Debug\Requirements.dll
+C:\Users\User\Documents\Subversion\SequenceAnalyzerRules\Requirements\Requirements\obj\Debug\Requirements.csprojAssemblyReference.cache
+C:\Users\User\Documents\Subversion\SequenceAnalyzerRules\Requirements\Requirements\obj\Debug\Requirements.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Subversion\SequenceAnalyzerRules\Requirements\Requirements\obj\Debug\Requirements.dll
+C:\Users\User\Documents\Subversion\SequenceAnalyzerRules\Requirements\Requirements\obj\Debug\Requirements.pdb
+C:\Users\User\Documents\Subversion\SequenceAnalyzerRules\Requirements\Requirements\bin\Debug\Requirements.pdb

@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<teststandfileheader type='SequenceAnalyzerRulesFile' fileversion='941' productname='TestStand' productversion='2020 (20.0.0.49158)' compatibleversion='20.0.0.0' buildversion='20.0.0.49158' xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.ni.com/TestStand/20.0.0/PropertyObjectFile">
+	<typelist/>
+	<Data classname='Obj'>
+		<subprops>
+			<data classname='Obj'>
+				<subprops>
+					<FileVersion classname='Num'>
+						<value>1</value>
+					</FileVersion>
+					<MinimumCompatibleFileVersion classname='Num'>
+						<value>1</value>
+					</MinimumCompatibleFileVersion>
+					<Rules classname='Objs'>
+						<value lbound='[0]' ubound='[2]'>
+							<value>
+								<Obj name=''>
+									<subprops>
+										<Id classname='Str'>
+											<value>JMETestSolutions_getAllRequirements</value>
+										</Id>
+										<Name classname='Str'>
+											<value>Requirements</value>
+										</Name>
+										<Description classname='Str'>
+											<value>Returns all of the requirements in sequences or steps</value>
+										</Description>
+										<Category classname='Str'>
+											<value>JMETestSolutions</value>
+										</Category>
+										<Severity classname='Num'>
+											<value>2</value>
+										</Severity>
+										<StringResourceCategory classname='Str'>
+											<value/>
+										</StringResourceCategory>
+										<IsBuiltin classname='Bool'>
+											<value>false</value>
+										</IsBuiltin>
+										<RuleSettingDefinitions classname='Objs'>
+											<value lbound='[0]' ubound='[]'/>
+										</RuleSettingDefinitions>
+										<Enumerations classname='Objs'>
+											<value lbound='[0]' ubound='[]'/>
+										</Enumerations>
+									</subprops>
+								</Obj>
+							</value>
+							<value>
+								<Obj name=''>
+									<subprops>
+										<Id classname='Str'>
+											<value>JMETestSolutions_getUnfinishedRequirements</value>
+										</Id>
+										<Name classname='Str'>
+											<value>Unfinished Requirements</value>
+										</Name>
+										<Description classname='Str'>
+											<value>Returns any requirement not listed as "Done"</value>
+										</Description>
+										<Category classname='Str'>
+											<value>JMETestSolutions</value>
+										</Category>
+										<Severity classname='Num'>
+											<value>1</value>
+										</Severity>
+										<StringResourceCategory classname='Str'>
+											<value/>
+										</StringResourceCategory>
+										<IsBuiltin classname='Bool'>
+											<value>false</value>
+										</IsBuiltin>
+										<RuleSettingDefinitions classname='Objs'>
+											<value lbound='[0]' ubound='[]'/>
+										</RuleSettingDefinitions>
+										<Enumerations classname='Objs'>
+											<value lbound='[0]' ubound='[]'/>
+										</Enumerations>
+									</subprops>
+								</Obj>
+							</value>
+							<value>
+								<Obj name=''>
+									<subprops>
+										<Id classname='Str'>
+											<value>JMETestSolutions_getMalformedRequirements</value>
+										</Id>
+										<Name classname='Str'>
+											<value>Malformed Requirement</value>
+										</Name>
+										<Description classname='Str'>
+											<value>Returns any requirement thatis not in the "Requirement,Summary,Status" Format</value>
+										</Description>
+										<Category classname='Str'>
+											<value>JMETestSolutions</value>
+										</Category>
+										<Severity classname='Num'>
+											<value>0</value>
+										</Severity>
+										<StringResourceCategory classname='Str'>
+											<value/>
+										</StringResourceCategory>
+										<IsBuiltin classname='Bool'>
+											<value>false</value>
+										</IsBuiltin>
+										<RuleSettingDefinitions classname='Objs'>
+											<value lbound='[0]' ubound='[]'/>
+										</RuleSettingDefinitions>
+										<Enumerations classname='Objs'>
+											<value lbound='[0]' ubound='[]'/>
+										</Enumerations>
+									</subprops>
+								</Obj>
+							</value>
+						</value>
+					</Rules>
+					<Modules classname='Objs'>
+						<value lbound='[0]' ubound='[2]'>
+							<value>
+								<Obj name=''>
+									<subprops>
+										<Module classname='Obj'>
+											<subprops>
+												<Type classname='Num'>
+													<value>0</value>
+												</Type>
+												<Adapter classname='Num'>
+													<value>2</value>
+												</Adapter>
+												<Path classname='Str'>
+													<value>Requirements.dll</value>
+												</Path>
+												<FunctionName classname='Str'>
+													<value>getAllRequirements(NationalInstruments.TestStand.Interop.SequenceAnalyzer.AnalysisContext)</value>
+												</FunctionName>
+												<ClassName classname='Str'>
+													<value>JMETestSolutions.SequenceAnalyzerRules.RequirementsRule</value>
+												</ClassName>
+												<RunInLVRTE classname='Bool'>
+													<value>false</value>
+												</RunInLVRTE>
+												<ModuleName classname='Str'>
+													<value/>
+												</ModuleName>
+											</subprops>
+										</Module>
+										<Scope classname='Obj'>
+											<subprops>
+												<ObjectTypes classname='Strs'>
+													<value lbound='[0]' ubound='[]'/>
+												</ObjectTypes>
+												<ObjectArrayTypes classname='Strs'>
+													<value lbound='[0]' ubound='[]'/>
+												</ObjectArrayTypes>
+												<ValueTypes classname='Num'>
+													<value>0</value>
+												</ValueTypes>
+												<Adapters classname='Strs'>
+													<value lbound='[0]' ubound='[]'/>
+												</Adapters>
+												<TransitionsLow classname='Num'>
+													<value>0</value>
+												</TransitionsLow>
+												<TransitionsHigh classname='Num'>
+													<value>0</value>
+												</TransitionsHigh>
+												<ObjectKinds classname='Num'>
+													<value>3</value>
+												</ObjectKinds>
+											</subprops>
+										</Scope>
+										<IsBuiltin classname='Bool'>
+											<value>false</value>
+										</IsBuiltin>
+									</subprops>
+								</Obj>
+							</value>
+							<value>
+								<Obj name=''>
+									<subprops>
+										<Module classname='Obj'>
+											<subprops>
+												<Type classname='Num'>
+													<value>0</value>
+												</Type>
+												<Adapter classname='Num'>
+													<value>2</value>
+												</Adapter>
+												<Path classname='Str'>
+													<value>Requirements.dll</value>
+												</Path>
+												<FunctionName classname='Str'>
+													<value>getMalformedRequirements(NationalInstruments.TestStand.Interop.SequenceAnalyzer.AnalysisContext)</value>
+												</FunctionName>
+												<ClassName classname='Str'>
+													<value>JMETestSolutions.SequenceAnalyzerRules.RequirementsRule</value>
+												</ClassName>
+												<RunInLVRTE classname='Bool'>
+													<value>false</value>
+												</RunInLVRTE>
+												<ModuleName classname='Str'>
+													<value/>
+												</ModuleName>
+											</subprops>
+										</Module>
+										<Scope classname='Obj'>
+											<subprops>
+												<ObjectTypes classname='Strs'>
+													<value lbound='[0]' ubound='[]'/>
+												</ObjectTypes>
+												<ObjectArrayTypes classname='Strs'>
+													<value lbound='[0]' ubound='[]'/>
+												</ObjectArrayTypes>
+												<ValueTypes classname='Num'>
+													<value>0</value>
+												</ValueTypes>
+												<Adapters classname='Strs'>
+													<value lbound='[0]' ubound='[]'/>
+												</Adapters>
+												<TransitionsLow classname='Num'>
+													<value>0</value>
+												</TransitionsLow>
+												<TransitionsHigh classname='Num'>
+													<value>0</value>
+												</TransitionsHigh>
+												<ObjectKinds classname='Num'>
+													<value>3</value>
+												</ObjectKinds>
+											</subprops>
+										</Scope>
+										<IsBuiltin classname='Bool'>
+											<value>false</value>
+										</IsBuiltin>
+									</subprops>
+								</Obj>
+							</value>
+							<value>
+								<Obj name=''>
+									<subprops>
+										<Module classname='Obj'>
+											<subprops>
+												<Type classname='Num'>
+													<value>0</value>
+												</Type>
+												<Adapter classname='Num'>
+													<value>2</value>
+												</Adapter>
+												<Path classname='Str'>
+													<value>Requirements.dll</value>
+												</Path>
+												<FunctionName classname='Str'>
+													<value>getUnfinishedRequirements(NationalInstruments.TestStand.Interop.SequenceAnalyzer.AnalysisContext)</value>
+												</FunctionName>
+												<ClassName classname='Str'>
+													<value>JMETestSolutions.SequenceAnalyzerRules.RequirementsRule</value>
+												</ClassName>
+												<RunInLVRTE classname='Bool'>
+													<value>false</value>
+												</RunInLVRTE>
+												<ModuleName classname='Str'>
+													<value/>
+												</ModuleName>
+											</subprops>
+										</Module>
+										<Scope classname='Obj'>
+											<subprops>
+												<ObjectTypes classname='Strs'>
+													<value lbound='[0]' ubound='[]'/>
+												</ObjectTypes>
+												<ObjectArrayTypes classname='Strs'>
+													<value lbound='[0]' ubound='[]'/>
+												</ObjectArrayTypes>
+												<ValueTypes classname='Num'>
+													<value>0</value>
+												</ValueTypes>
+												<Adapters classname='Strs'>
+													<value lbound='[0]' ubound='[]'/>
+												</Adapters>
+												<TransitionsLow classname='Num'>
+													<value>0</value>
+												</TransitionsLow>
+												<TransitionsHigh classname='Num'>
+													<value>0</value>
+												</TransitionsHigh>
+												<ObjectKinds classname='Num'>
+													<value>3</value>
+												</ObjectKinds>
+											</subprops>
+										</Scope>
+										<IsBuiltin classname='Bool'>
+											<value>false</value>
+										</IsBuiltin>
+									</subprops>
+								</Obj>
+							</value>
+						</value>
+					</Modules>
+				</subprops>
+			</data>
+		</subprops>
+	</Data>
+</teststandfileheader>
