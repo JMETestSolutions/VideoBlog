@@ -1,0 +1,6 @@
+Regex	Response. Note This file is tab \t delimited
+\*IDN?	Simulated DMM
+\*RST	Success
+VOLT?	1.23
+AMP?	1.23
+RES?	1.23
